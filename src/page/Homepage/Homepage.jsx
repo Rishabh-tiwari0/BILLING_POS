@@ -1,11 +1,11 @@
 import React from "react";
-import Sidebar from "./Sidebar/Sidebar";
 import Inventory from "./Inventory/Inventory";
+import Navbar from "./Navbar/Navbar";
 
 const Homepage = () => {
   return (
-    <div className="flex w-full h-full gap-3">
-      <Sidebar />
+    <div className="flex flex-col">
+      <Navbar />
       <Inventory />
     </div>
   );

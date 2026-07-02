@@ -1,7 +1,7 @@
-import React from "react";
+import { ProductSearch } from "../../../Components/ProductSearch";
 
 function Inventory() {
-  return <div className="flex-2 bg-blue-700">Inventory</div>;
+  return <div className=""></div>;
 }
 
 export default Inventory;
